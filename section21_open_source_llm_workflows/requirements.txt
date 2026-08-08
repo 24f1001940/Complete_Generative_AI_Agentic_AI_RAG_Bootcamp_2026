@@ -1,0 +1,8 @@
+streamlit
+groq
+python-dotenv
+openai
+langchain-ollama
+
+
+# Set GROQ_API_KEY in your environment or a local .env file.

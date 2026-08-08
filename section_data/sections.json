@@ -1,0 +1,71 @@
+{
+  "course_name": "Complete Generative AI, Agentic AI & RAG Bootcamp",
+  "author": "MOHD SAQIB",
+  "sections": [
+    {
+      "section_number": 1,
+      "section_title": "Course Onboarding & Enterprise Environment Setup",
+      "summary": "Introduction to the course, learning roadmap, development environment and resources.",
+      "lectures": [
+        {
+          "lecture_number": 1,
+          "lecture_title": "Welcome to the course",
+          "objective": "Understand the purpose, scope and learning journey of the bootcamp.",
+          "resources": [
+            "Section 1 notes",
+            "Course ebook"
+          ]
+        },
+        {
+          "lecture_number": 2,
+          "lecture_title": "What you will build in this course",
+          "objective": "Preview the practical applications, projects and capstones covered throughout the bootcamp.",
+          "resources": [
+            "Course roadmap",
+            "Project overview"
+          ]
+        },
+        {
+          "lecture_number": 3,
+          "lecture_title": "How this course is structured",
+          "objective": "Understand how lectures, quizzes, coding exercises, assignments, projects and resources fit together.",
+          "resources": []
+        },
+        {
+          "lecture_number": 4,
+          "lecture_title": "Tools, software, and accounts needed",
+          "objective": "Understand the software, development tools and accounts required for the course.",
+          "resources": []
+        },
+        {
+          "lecture_number": 5,
+          "lecture_title": "How to follow the course effectively",
+          "objective": "Learn a practical workflow for studying, coding, practicing and completing projects.",
+          "resources": []
+        },
+        {
+          "lecture_number": 6,
+          "lecture_title": "Course resources and project files",
+          "objective": "Learn where to find the ebook, notes, source code, project files and additional resources.",
+          "resources": [
+            "Master ebook",
+            "GitHub repository",
+            "Project resources"
+          ]
+        }
+      ]
+    },
+    {
+      "section_number": 2,
+      "section_title": "Python Development Environment Setup",
+      "summary": "Set up Python, VS Code, environments, notebooks and package management.",
+      "lectures": []
+    },
+    {
+      "section_number": 3,
+      "section_title": "Python Core Fundamentals",
+      "summary": "Build a strong foundation in Python syntax and programming concepts.",
+      "lectures": []
+    }
+  ]
+}
