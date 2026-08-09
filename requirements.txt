@@ -1,1 +1,43 @@
 streamlit==1.48.0
+
+# Core Python / Data Science
+numpy
+pandas
+scikit-learn
+
+# NLP / Deep Learning
+gensim
+torch
+transformers
+
+# LangChain
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+
+# Vector Search / RAG
+faiss-cpu
+chromadb
+
+# APIs / Web
+requests
+fastapi
+uvicorn
+langserve
+
+# Data Validation / Structured Output
+pydantic
+
+# LLM Providers
+groq
+
+# Environment Variables
+python-dotenv
+
+# Document Processing
+pypdf
+python-docx
+
+# Useful HTTP / Async Dependencies
+httpx

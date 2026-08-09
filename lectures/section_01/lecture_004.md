@@ -1,25 +1,7 @@
-# Lecture 4: Tools, software, and accounts needed
+# Lecture 4: Tools, Software, and Accounts Needed
 
-## Learning Objective
-
-Add the learning objective for this lecture.
-
-## Concepts Covered
-
-- Add concept 1
-- Add concept 2
-- Add concept 3
-
-## Code
-
-The corresponding Python implementation is available in:
-
-`lecture_004.py`
-
-## Practice
-
-Add exercises, assignments, or experiments here.
-
-## Resources
-
-Add useful links and references here.
+## Setup Checklist
+- **Python 3.11+**: Primary runtime engine.
+- **VS Code**: Core IDE with Python & Pylance extensions.
+- **UV / Conda**: Virtual environment isolated dependency managers.
+- **API Keys**: Obtain developer keys for Groq (free Tier) and Hugging Face.

@@ -1,25 +1,13 @@
-# Lecture 1: Welcome to the course
+# Lecture 1: Welcome to the Course
 
-## Learning Objective
+## Overview
+Welcome to the **Complete Generative AI, Agentic AI & RAG Bootcamp (2026 Edition)**.
 
-Add the learning objective for this lecture.
+## Learning Objectives
+- Understand the scope and domain depth of the course.
+- Verify environment setup and Streamlit runtime components.
+- Prepare your workspace for hands-on, production-level AI engineering.
 
-## Concepts Covered
-
-- Add concept 1
-- Add concept 2
-- Add concept 3
-
-## Code
-
-The corresponding Python implementation is available in:
-
-`lecture_001.py`
-
-## Practice
-
-Add exercises, assignments, or experiments here.
-
-## Resources
-
-Add useful links and references here.
+## Key Takeaways
+1. **Practical Focus**: Every section includes production code, assignments, and capstones.
+2. **End-to-End Spectrum**: Topics range from foundational Python to multi-agent production orchestration.

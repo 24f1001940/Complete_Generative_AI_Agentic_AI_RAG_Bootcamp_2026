@@ -1,25 +1,6 @@
-# Lecture 6: Course resources and project files
+# Lecture 6: Course Resources and Project Files
 
-## Learning Objective
-
-Add the learning objective for this lecture.
-
-## Concepts Covered
-
-- Add concept 1
-- Add concept 2
-- Add concept 3
-
-## Code
-
-The corresponding Python implementation is available in:
-
-`lecture_006.py`
-
-## Practice
-
-Add exercises, assignments, or experiments here.
-
-## Resources
-
-Add useful links and references here.
+## Resource Organization
+- `/section_data/sections.json`: Structured course content catalog.
+- `/lectures/`: Modular Python scripts and markdown notes organized by section.
+- `/resources/`: Ebooks, section notes, quizzes, and project assets.

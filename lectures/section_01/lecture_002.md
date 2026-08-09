@@ -1,25 +1,8 @@
-# Lecture 2: What you will build in this course
+# Lecture 2: What You Will Build in This Course
 
-## Learning Objective
+## Production Projects Breakdown
+During this course, you will build three enterprise-grade capstone projects:
 
-Add the learning objective for this lecture.
-
-## Concepts Covered
-
-- Add concept 1
-- Add concept 2
-- Add concept 3
-
-## Code
-
-The corresponding Python implementation is available in:
-
-`lecture_002.py`
-
-## Practice
-
-Add exercises, assignments, or experiments here.
-
-## Resources
-
-Add useful links and references here.
+1. **Multi-Document RAG Q&A Engine**: Process unstructured PDFs with hybrid retrieval and semantic citations.
+2. **Autonomous Research Agent**: A dynamic web researcher that executes self-directed tool queries and generates reports.
+3. **Autonomous Code Engineering Agent**: A multi-agent framework capable of writing, running, debugging, and deploying code.

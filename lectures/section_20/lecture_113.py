@@ -1,0 +1,24 @@
+"""
+Lecture 113: Conversational Q&A chatbot
+"""
+
+
+def main():
+    print("Lecture 113: Conversational Q&A chatbot")
+    print()
+    print("This lecture demonstrates the core workflow described by the topic.")
+    print("Use the examples below as a starting point for your course demo.")
+
+    workflow = [
+        "Input",
+        "Processing / Model",
+        "Application Logic",
+        "Output",
+    ]
+
+    print("\nGeneric workflow:")
+    print(" -> ".join(workflow))
+
+
+if __name__ == "__main__":
+    main()

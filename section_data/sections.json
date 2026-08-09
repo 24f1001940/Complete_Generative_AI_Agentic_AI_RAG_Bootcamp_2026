@@ -1,71 +1,402 @@
 {
   "course_name": "Complete Generative AI, Agentic AI & RAG Bootcamp",
   "author": "MOHD SAQIB",
+  "github_url": "https://github.com/24f1001940/Complete_Generative_AI_Agentic_AI_RAG_Bootcamp_2026",
   "sections": [
     {
       "section_number": 1,
       "section_title": "Course Onboarding & Enterprise Environment Setup",
-      "summary": "Introduction to the course, learning roadmap, development environment and resources.",
+      "summary": "Course overview, learning architecture, enterprise tooling requirements, and project setup.",
       "lectures": [
-        {
-          "lecture_number": 1,
-          "lecture_title": "Welcome to the course",
-          "objective": "Understand the purpose, scope and learning journey of the bootcamp.",
-          "resources": [
-            "Section 1 notes",
-            "Course ebook"
-          ]
-        },
-        {
-          "lecture_number": 2,
-          "lecture_title": "What you will build in this course",
-          "objective": "Preview the practical applications, projects and capstones covered throughout the bootcamp.",
-          "resources": [
-            "Course roadmap",
-            "Project overview"
-          ]
-        },
-        {
-          "lecture_number": 3,
-          "lecture_title": "How this course is structured",
-          "objective": "Understand how lectures, quizzes, coding exercises, assignments, projects and resources fit together.",
-          "resources": []
-        },
-        {
-          "lecture_number": 4,
-          "lecture_title": "Tools, software, and accounts needed",
-          "objective": "Understand the software, development tools and accounts required for the course.",
-          "resources": []
-        },
-        {
-          "lecture_number": 5,
-          "lecture_title": "How to follow the course effectively",
-          "objective": "Learn a practical workflow for studying, coding, practicing and completing projects.",
-          "resources": []
-        },
-        {
-          "lecture_number": 6,
-          "lecture_title": "Course resources and project files",
-          "objective": "Learn where to find the ebook, notes, source code, project files and additional resources.",
-          "resources": [
-            "Master ebook",
-            "GitHub repository",
-            "Project resources"
-          ]
-        }
+        {"lecture_number": 1, "lecture_title": "Welcome to the course"},
+        {"lecture_number": 2, "lecture_title": "What you will build in this course"},
+        {"lecture_number": 3, "lecture_title": "How this course is structured"},
+        {"lecture_number": 4, "lecture_title": "Tools, software, and accounts needed"},
+        {"lecture_number": 5, "lecture_title": "How to follow the course effectively"},
+        {"lecture_number": 6, "lecture_title": "Course resources and project files"}
       ]
     },
     {
       "section_number": 2,
       "section_title": "Python Development Environment Setup",
-      "summary": "Set up Python, VS Code, environments, notebooks and package management.",
-      "lectures": []
+      "summary": "Setting up Python, VS Code, Conda, UV package manager, Jupyter, and virtual environments.",
+      "lectures": [
+        {"lecture_number": 7, "lecture_title": "Install Python and VS Code"},
+        {"lecture_number": 8, "lecture_title": "Install Anaconda and Conda basics"},
+        {"lecture_number": 9, "lecture_title": "Create virtual environments with Conda"},
+        {"lecture_number": 10, "lecture_title": "Create virtual environments with UV"},
+        {"lecture_number": 11, "lecture_title": "Jupyter notebooks vs scripts"},
+        {"lecture_number": 12, "lecture_title": "Installing libraries with pip and UV"}
+      ]
     },
     {
       "section_number": 3,
       "section_title": "Python Core Fundamentals",
-      "summary": "Build a strong foundation in Python syntax and programming concepts.",
-      "lectures": []
+      "summary": "Deep dive into core Python programming concepts.",
+      "lectures": [
+        {"lecture_number": 13, "lecture_title": "Python Core Concepts in One Video (part 1)"},
+        {"lecture_number": 14, "lecture_title": "Python Core Concepts in One Video (part 2)"}
+      ]
+    },
+    {
+      "section_number": 4,
+      "section_title": "Python Functions and Modular Programming",
+      "summary": "Functional programming, arguments, lambdas, modules, and packaging.",
+      "lectures": [
+        {"lecture_number": 15, "lecture_title": "Function basics"},
+        {"lecture_number": 16, "lecture_title": "Default, Keyword & Variable Arguments, Lambda Functions, Map & Filter"},
+        {"lecture_number": 17, "lecture_title": "Importing modules and packages"},
+        {"lecture_number": 18, "lecture_title": "Writing reusable python code"}
+      ]
+    },
+    {
+      "section_number": 5,
+      "section_title": "File Handling and Exception Handling",
+      "summary": "Reading/writing text and structured data files alongside robust exception handling.",
+      "lectures": [
+        {"lecture_number": 19, "lecture_title": "File operations"},
+        {"lecture_number": 20, "lecture_title": "Reading and writing text files"},
+        {"lecture_number": 21, "lecture_title": "Reading structured data files"},
+        {"lecture_number": 22, "lecture_title": "Custom exception handling"}
+      ]
+    },
+    {
+      "section_number": 6,
+      "section_title": "Object-Oriented Programming",
+      "summary": "Classes, inheritance, polymorphism, magic methods, and production OOP design.",
+      "lectures": [
+        {"lecture_number": 23, "lecture_title": "Classes and objects"},
+        {"lecture_number": 24, "lecture_title": "Constructors and attributes"},
+        {"lecture_number": 25, "lecture_title": "Inheritance"},
+        {"lecture_number": 26, "lecture_title": "Polymorphism"},
+        {"lecture_number": 27, "lecture_title": "Encapsulation"},
+        {"lecture_number": 28, "lecture_title": "Abstraction"},
+        {"lecture_number": 29, "lecture_title": "Magic methods"},
+        {"lecture_number": 30, "lecture_title": "Operator overloading"},
+        {"lecture_number": 31, "lecture_title": "Build a Production-Style AI Assistant Using OOP"}
+      ]
+    },
+    {
+      "section_number": 7,
+      "section_title": "Iterators, Generators, Closures, and Decorators",
+      "summary": "Advanced Python execution concepts, lazy evaluation, and decorator patterns.",
+      "lectures": [
+        {"lecture_number": 32, "lecture_title": "Iterators"},
+        {"lecture_number": 33, "lecture_title": "Generators"},
+        {"lecture_number": 34, "lecture_title": "Yield and lazy evaluation"},
+        {"lecture_number": 35, "lecture_title": "Closures"},
+        {"lecture_number": 36, "lecture_title": "Decorators"},
+        {"lecture_number": 37, "lecture_title": "Practical utility patterns"}
+      ]
+    },
+    {
+      "section_number": 8,
+      "section_title": "Production Python: Logging & Pydantic",
+      "summary": "Structured logging, data validation, and Pydantic schema modeling for GenAI.",
+      "lectures": [
+        {"lecture_number": 38, "lecture_title": "Complete Python Logging Guide: From Basics to Production"},
+        {"lecture_number": 39, "lecture_title": "Pydantic Data Validation: Fields, Constraints & Custom Validators"},
+        {"lecture_number": 40, "lecture_title": "Pydantic Data Models: Reusable Models, Serialization & AI Examples"}
+      ]
+    },
+    {
+      "section_number": 9,
+      "section_title": "Data Analysis with NumPy, Pandas & Matplotlib",
+      "summary": "Data wrangling, linear algebra foundations, and visualization for data science.",
+      "lectures": [
+        {"lecture_number": 41, "lecture_title": "NumPy Fundamentals for AI and Data Science"},
+        {"lecture_number": 42, "lecture_title": "Data Analysis with Pandas"},
+        {"lecture_number": 43, "lecture_title": "Data manipulation with Pandas"},
+        {"lecture_number": 44, "lecture_title": "Data Visualization with Matplotlib"}
+      ]
+    },
+    {
+      "section_number": 10,
+      "section_title": "Building AI Apps with Streamlit",
+      "summary": "Creating dynamic web frontends and deploying AI interactive user interfaces.",
+      "lectures": [
+        {"lecture_number": 45, "lecture_title": "Getting started with Streamlit & Build your first app"},
+        {"lecture_number": 46, "lecture_title": "Widgets and interaction"},
+        {"lecture_number": 47, "lecture_title": "Displaying outputs"},
+        {"lecture_number": 48, "lecture_title": "Displaying with ML/AI apps"},
+        {"lecture_number": 49, "lecture_title": "Deploying simple demo apps"}
+      ]
+    },
+    {
+      "section_number": 11,
+      "section_title": "NLP Foundations",
+      "summary": "Text preprocessing, tokenization, POS tagging, NER, and core computational linguistics.",
+      "lectures": [
+        {"lecture_number": 50, "lecture_title": "Roadmap to learn NLP"},
+        {"lecture_number": 51, "lecture_title": "Practical use cases of NLP"},
+        {"lecture_number": 52, "lecture_title": "Tokenization and terminology"},
+        {"lecture_number": 53, "lecture_title": "Text preprocessing"},
+        {"lecture_number": 54, "lecture_title": "Stemming"},
+        {"lecture_number": 55, "lecture_title": "Lemmatization"},
+        {"lecture_number": 56, "lecture_title": "Stopwords"},
+        {"lecture_number": 57, "lecture_title": "POS tagging"},
+        {"lecture_number": 58, "lecture_title": "Named entity recognition"},
+        {"lecture_number": 59, "lecture_title": "NLP mini projects"}
+      ]
+    },
+    {
+      "section_number": 12,
+      "section_title": "Classical NLP Features",
+      "summary": "Vector space models, TF-IDF, N-grams, Word2Vec, CBOW, and Skip-gram architectures.",
+      "lectures": [
+        {"lecture_number": 60, "lecture_title": "One-hot encoding"},
+        {"lecture_number": 61, "lecture_title": "Bag of Words + N-grams"},
+        {"lecture_number": 62, "lecture_title": "TF-IDF"},
+        {"lecture_number": 63, "lecture_title": "Word embeddings + Word2Vec Intuition"},
+        {"lecture_number": 64, "lecture_title": "CBOW + Skip-gram"},
+        {"lecture_number": 65, "lecture_title": "Average Word2Vec"},
+        {"lecture_number": 66, "lecture_title": "Practical NLP feature engineering"}
+      ]
+    },
+    {
+      "section_number": 13,
+      "section_title": "Deep Learning for NLP",
+      "summary": "Recurrent neural networks, BPTT, LSTMs, GRUs, Seq2Seq, and Attention mechanisms.",
+      "lectures": [
+        {"lecture_number": 67, "lecture_title": "Introduction to NLP in deep learning"},
+        {"lecture_number": 68, "lecture_title": "ANN vs RNN + RNN Forward Propagation"},
+        {"lecture_number": 69, "lecture_title": "RNN Backpropagation Through Time (BPTT)"},
+        {"lecture_number": 70, "lecture_title": "Limitations of RNN + Simple RNN with Word Embeddings"},
+        {"lecture_number": 71, "lecture_title": "LSTM Intuition + Complete LSTM Architecture"},
+        {"lecture_number": 72, "lecture_title": "GRU (Gated Recurrent Unit)"},
+        {"lecture_number": 73, "lecture_title": "Bidirectional RNN"},
+        {"lecture_number": 74, "lecture_title": "Seq2Seq Architecture + Attention Mechanism"}
+      ]
+    },
+    {
+      "section_number": 14,
+      "section_title": "Transformers",
+      "summary": "Self-attention, positional encodings, Encoder/Decoder mechanics, and multi-head attention.",
+      "lectures": [
+        {"lecture_number": 75, "lecture_title": "Why transformers changed AI"},
+        {"lecture_number": 76, "lecture_title": "Encoder Architecture + Positional Encoding"},
+        {"lecture_number": 77, "lecture_title": "Self-Attention + Multi-Head Attention"},
+        {"lecture_number": 78, "lecture_title": "Feed Forward Network + LayerNorm + Residual Connections"},
+        {"lecture_number": 79, "lecture_title": "Transformer Decoder, Complete Architecture & Text Generation"}
+      ]
+    },
+    {
+      "section_number": 15,
+      "section_title": "Generative AI Fundamentals",
+      "summary": "Understanding LLMs, pre-training, fine-tuning, open vs closed models, and hallucination management.",
+      "lectures": [
+        {"lecture_number": 80, "lecture_title": "AI vs ML vs DL vs Generative AI"},
+        {"lecture_number": 81, "lecture_title": "What is an LLM?"},
+        {"lecture_number": 82, "lecture_title": "Evolution of LLMs & How ChatGPT and LLaMA are Trained"},
+        {"lecture_number": 83, "lecture_title": "Open-Source vs Closed-Source Models & Choosing the Right Model"},
+        {"lecture_number": 84, "lecture_title": "Model Capabilities, Limitations, Hallucinations & Context Windows"}
+      ]
+    },
+    {
+      "section_number": 16,
+      "section_title": "Prompt Engineering",
+      "summary": "System prompts, Few-shot techniques, Chain-of-Thought, and systematic prompt evaluations.",
+      "lectures": [
+        {"lecture_number": 85, "lecture_title": "Prompt Engineering Fundamentals"},
+        {"lecture_number": 86, "lecture_title": "Role & Persona Prompting"},
+        {"lecture_number": 87, "lecture_title": "Zero-shot, One-shot & Few-shot Prompting"},
+        {"lecture_number": 88, "lecture_title": "Chain-of-Thought Style, Reasoning & Structured Prompting"},
+        {"lecture_number": 89, "lecture_title": "Output Control & Prompt Templates"},
+        {"lecture_number": 90, "lecture_title": "Prompt Evaluation, Prompt Debugging & Best Practices"}
+      ]
+    },
+    {
+      "section_number": 17,
+      "section_title": "Hugging Face Ecosystem",
+      "summary": "Using Hugging Face Hub, Pipelines, Model hub selection, and local inference execution.",
+      "lectures": [
+        {"lecture_number": 91, "lecture_title": "Introduction to Hugging Face & Transformers Ecosystem"},
+        {"lecture_number": 92, "lecture_title": "Understanding Pretrained Models"},
+        {"lecture_number": 93, "lecture_title": "Hugging Face Pipelines & Text Generation"},
+        {"lecture_number": 94, "lecture_title": "Choosing the Right Hugging Face Model"},
+        {"lecture_number": 95, "lecture_title": "Hugging Face NLP Pipelines & Practical Integration Project"}
+      ]
+    },
+    {
+      "section_number": 18,
+      "section_title": "LangChain Foundations",
+      "summary": "Core primitives: Prompts, Models, Output Parsers, Document Loaders, and Memory modules.",
+      "lectures": [
+        {"lecture_number": 96, "lecture_title": "Complete LangChain Ecosystem & Why It Matters"},
+        {"lecture_number": 97, "lecture_title": "LangChain Core Building Blocks & Output Parsers"},
+        {"lecture_number": 98, "lecture_title": "Document Loaders & Text Splitting"},
+        {"lecture_number": 99, "lecture_title": "Chains, Retrievers & RAG Basics"},
+        {"lecture_number": 100, "lecture_title": "Memory Basics"},
+        {"lecture_number": 101, "lecture_title": "Building Your First LangChain App"}
+      ]
+    },
+    {
+      "section_number": 19,
+      "section_title": "Embeddings with Vector Search",
+      "summary": "Vector databases, similarity metrics, FAISS, ChromaDB, and indexing strategies.",
+      "lectures": [
+        {"lecture_number": 102, "lecture_title": "Introduction to embeddings"},
+        {"lecture_number": 103, "lecture_title": "Embedding Models: OpenAI, Ollama & Hugging Face"},
+        {"lecture_number": 104, "lecture_title": "Similarity Search, Vector Stores & Vector Databases"},
+        {"lecture_number": 105, "lecture_title": "FAISS & ChromaDB in Practice"},
+        {"lecture_number": 106, "lecture_title": "Retriever Fundamentals & Retrieval Pipelines"}
+      ]
+    },
+    {
+      "section_number": 20,
+      "section_title": "First GenAI Applications",
+      "summary": "Building end-to-end GenAI applications with LCEL, Ollama, and LangServe.",
+      "lectures": [
+        {"lecture_number": 107, "lecture_title": "Simple GenAI app using Ollama"},
+        {"lecture_number": 108, "lecture_title": "LLM prompt and output chain"},
+        {"lecture_number": 109, "lecture_title": "LCEL basics"},
+        {"lecture_number": 110, "lecture_title": "LangServe API deployment"},
+        {"lecture_number": 111, "lecture_title": "Chatbot with message history"},
+        {"lecture_number": 112, "lecture_title": "Prompt templates with memory"},
+        {"lecture_number": 113, "lecture_title": "Conversational Q&A chatbot"},
+        {"lecture_number": 114, "lecture_title": "Working with retriever + vector store"}
+      ]
+    },
+    {
+      "section_number": 21,
+      "section_title": "Open-Source LLM Workflows",
+      "summary": "Executing open-source model inferencing using Groq LPUs, local Ollama, and cloud routing.",
+      "lectures": [
+        {"lecture_number": 115, "lecture_title": "Groq cloud and LPUs"},
+        {"lecture_number": 116, "lecture_title": "Open-source models with Groq"},
+        {"lecture_number": 117, "lecture_title": "Using local and hosted models"},
+        {"lecture_number": 118, "lecture_title": "API-based model integration"},
+        {"lecture_number": 119, "lecture_title": "Speed and latency considerations"},
+        {"lecture_number": 120, "lecture_title": "Model routing strategies"}
+      ]
+    },
+    {
+      "section_number": 22,
+      "section_title": "Structured Outputs and Tool Use",
+      "summary": "Generating typed responses with Pydantic, defining custom tools, and function calling.",
+      "lectures": [
+        {"lecture_number": 121, "lecture_title": "Model Integration, Message Types & Execution Modes (Invoke, Batch, Stream)"},
+        {"lecture_number": 122, "lecture_title": "Custom Tools & Tool-Calling Agents in LangChain"},
+        {"lecture_number": 123, "lecture_title": "Structured Outputs with Pydantic, TypedDict & Dataclasses"},
+        {"lecture_number": 124, "lecture_title": "Reliable Schema Design, Fallbacks & Output Parsing Error Handling"}
+      ]
+    },
+    {
+      "section_number": 23,
+      "section_title": "Production GenAI: Middleware, Observability & Deployment",
+      "summary": "LangSmith tracing, stateful conversation persistence, and cloud production deployments.",
+      "lectures": [
+        {"lecture_number": 125, "lecture_title": "Conversation Memory Design, Stateful Assistants & Middleware Controls"},
+        {"lecture_number": 126, "lecture_title": "LangSmith Observability: Tracing Workflows, Debugging & App Evaluation"},
+        {"lecture_number": 127, "lecture_title": "GenAI App Deployment: Streamlit Cloud, Hugging Face Spaces & LangServe APIs"},
+        {"lecture_number": 128, "lecture_title": "Enterprise Infrastructure: AWS Lifecycle, Scaling Architecture & Reliability"}
+      ]
+    },
+    {
+      "section_number": 24,
+      "section_title": "Core GenAI Applications & Tool-Driven Assistants",
+      "summary": "Building SQL search assistants, document summarizers (Map-Reduce/Refine), and math engines.",
+      "lectures": [
+        {"lecture_number": 129, "lecture_title": "Conversational Q&A Systems: Architecture, Prompts & Provider Comparisons"},
+        {"lecture_number": 130, "lecture_title": "Text Summarization Engines: Stuff, Map-Reduce & Refine Chains"},
+        {"lecture_number": 131, "lecture_title": "Tool Integration, Function Calling & SQL Database Assistants"},
+        {"lecture_number": 132, "lecture_title": "Specialized Productivity Assistants: Math Solvers, Code Helpers & Study Tools"}
+      ]
+    },
+    {
+      "section_number": 25,
+      "section_title": "RAG Infrastructure: Ingestion, Vector Stores & Retrieval",
+      "summary": "Building document ingestion pipelines with ChromaDB, FAISS, Pinecone, and AstraDB.",
+      "lectures": [
+        {"lecture_number": 133, "lecture_title": "RAG Core Principles: Architecture, Business Value & Fine-Tuning Tradeoffs"},
+        {"lecture_number": 134, "lecture_title": "Data Ingestion & Preprocessing: Unstructured (PDF, Word) & Structured (CSV, SQL)"},
+        {"lecture_number": 135, "lecture_title": "Vector Stores: ChromaDB, FAISS, Pinecone & AstraDB"},
+        {"lecture_number": 136, "lecture_title": "End-to-End LCEL Retrieval Pipelines & Vector Management"}
+      ]
+    },
+    {
+      "section_number": 26,
+      "section_title": "Advanced RAG Strategies & Evaluation",
+      "summary": "HyDE, semantic chunking, reciprocal rank fusion (RRF), multimodal RAG, and Ragas metrics.",
+      "lectures": [
+        {"lecture_number": 137, "lecture_title": "Advanced Retrieval: Semantic Chunking, Hybrid Search & RRF"},
+        {"lecture_number": 138, "lecture_title": "Query Transformations: Expansion, Decomposition & HyDE"},
+        {"lecture_number": 139, "lecture_title": "Multimodal RAG, Contextual Memory & Next-Gen Patterns"},
+        {"lecture_number": 140, "lecture_title": "Safeguards & Evaluation: Guardrails & LLM-as-a-Judge"}
+      ]
+    },
+    {
+      "section_number": 27,
+      "section_title": "LangGraph & Agentic Workflow Patterns",
+      "summary": "Building stateful computational graph workflows using LangGraph nodes, edges, and state.",
+      "lectures": [
+        {"lecture_number": 141, "lecture_title": "Agentic AI Foundations: Capabilities, Tool Use & Planning"},
+        {"lecture_number": 142, "lecture_title": "LangGraph Core Architecture: State Graphs, Nodes & Edges"},
+        {"lecture_number": 143, "lecture_title": "Stateful Chatbots & Control: Routers, Streaming & Studio"},
+        {"lecture_number": 144, "lecture_title": "Agentic Workflows: Parallel, Routing & Human-in-the-Loop"}
+      ]
+    },
+    {
+      "section_number": 28,
+      "section_title": "Agentic RAG & Multi-Agent Systems",
+      "summary": "Corrective RAG (CRAG), Adaptive RAG, ReAct patterns, and multi-agent supervisor loops.",
+      "lectures": [
+        {"lecture_number": 145, "lecture_title": "ReAct Architecture, ToolNode Basics & Structured Decisions"},
+        {"lecture_number": 146, "lecture_title": "Agentic RAG: Query Planning, Thought Chains & Reflection"},
+        {"lecture_number": 147, "lecture_title": "Production RAG: Corrective (CRAG) & Adaptive RAG"},
+        {"lecture_number": 148, "lecture_title": "Multi-Agent Systems: Protocols, Supervisors & Routing"}
+      ]
+    },
+    {
+      "section_number": 29,
+      "section_title": "Knowledge Graphs & Graph RAG",
+      "summary": "Constructing property graphs in Neo4j and performing Cypher queries with vector search.",
+      "lectures": [
+        {"lecture_number": 149, "lecture_title": "Knowledge Graphs: Property Graph Models & Neo4j Setup"},
+        {"lecture_number": 150, "lecture_title": "Cypher Query Language & LangChain Graph Ingestion"},
+        {"lecture_number": 151, "lecture_title": "Graph RAG: Combining Knowledge Graphs & Vector Search"}
+      ]
+    },
+    {
+      "section_number": 30,
+      "section_title": "Fine-Tuning & System Optimization",
+      "summary": "LoRA, QLoRA, 4-bit/8-bit quantization, dataset curation, and Gemma fine-tuning.",
+      "lectures": [
+        {"lecture_number": 152, "lecture_title": "Fine-Tuning Mechanics: Quantization, LoRA & QLoRA"},
+        {"lecture_number": 153, "lecture_title": "Dataset Curation & Fine-Tuning Google Gemma Models"},
+        {"lecture_number": 154, "lecture_title": "System Optimization: Speed, Memory & Token Efficiency"}
+      ]
+    },
+    {
+      "section_number": 31,
+      "section_title": "Claude Ecosystem, Deep Agents & MCP",
+      "summary": "Anthropic Model Context Protocol (MCP), deep agent networks, and context engineering.",
+      "lectures": [
+        {"lecture_number": 155, "lecture_title": "Claude Ecosystem: Claude Code, Agent Teams & Plugins"},
+        {"lecture_number": 156, "lecture_title": "Deep Agents Architecture: Concepts & Sub-Agent Networks"},
+        {"lecture_number": 157, "lecture_title": "Model Context Protocol (MCP): Architecture & Custom Tools"},
+        {"lecture_number": 158, "lecture_title": "System Design: Context Engineering & Production Memory"}
+      ]
+    },
+    {
+      "section_number": 32,
+      "section_title": "Enterprise Capstone Projects — Building & Deploying Real-World AI Apps",
+      "summary": "Building and deploying enterprise capstone applications to cloud infrastructure.",
+      "lectures": [
+        {"lecture_number": 159, "lecture_title": "Project 1: Multi-Document RAG Q&A Engine with Semantic Citations"},
+        {"lecture_number": 160, "lecture_title": "Project 2: Autonomous Web Research & Real-Time News Agent"},
+        {"lecture_number": 161, "lecture_title": "Project 3 & Capstone: Autonomous Code Engineering Agent & Cloud Deployment"}
+      ]
+    },
+    {
+      "section_number": 33,
+      "section_title": "Enterprise Cloud & Multi-Agent Systems",
+      "summary": "AWS Bedrock/SageMaker deployment, NVIDIA NIM integration, and CrewAI orchestration.",
+      "lectures": [
+        {"lecture_number": 162, "lecture_title": "AWS Cloud Deployment: Bedrock, Lambda & SageMaker"},
+        {"lecture_number": 163, "lecture_title": "NVIDIA Infrastructure: NIM & Enterprise Inference"},
+        {"lecture_number": 164, "lecture_title": "CrewAI Automation: Multi-Agent Orchestration Engine"}
+      ]
     }
   ]
 }

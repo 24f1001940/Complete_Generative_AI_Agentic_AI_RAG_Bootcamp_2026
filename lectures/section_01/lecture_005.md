@@ -1,25 +1,6 @@
-# Lecture 5: How to follow the course effectively
+# Lecture 5: How to Follow the Course Effectively
 
-## Learning Objective
-
-Add the learning objective for this lecture.
-
-## Concepts Covered
-
-- Add concept 1
-- Add concept 2
-- Add concept 3
-
-## Code
-
-The corresponding Python implementation is available in:
-
-`lecture_005.py`
-
-## Practice
-
-Add exercises, assignments, or experiments here.
-
-## Resources
-
-Add useful links and references here.
+## Learning Strategy
+- **Active Coding**: Reproduce the scripts from scratch.
+- **Debugging First**: Read error traces before checking solutions.
+- **Version Control**: Commit your code per lecture to maintain a clean git log.
